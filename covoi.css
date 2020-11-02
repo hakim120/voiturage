@@ -1,0 +1,30 @@
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+ 
+  .b1{
+    margin-top: 35px;
+  }
+  .caption{
+    position: absolute;
+    top:50%;
+left:20%;
+background: rgba(255,255,255,0.5); 
+
+  }
+  
+  .caption1{
+    position: absolute;
+    bottom: 500px;
+    left: 600px;
+color:#0984e3;
+    font-family: system-ui;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 2px rgb(252, 247, 247), 0 0 1em white, 0 0 0.2em white;
+    top:200px;
+  }
+
+  .date{
+    margin-top: 3px;
+  }
