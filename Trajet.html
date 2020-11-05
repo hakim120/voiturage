@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="covoi.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/e0d7e898b5.js" crossorigin="anonymous"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+ 
+
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="logo2.png" id="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="Acceuille.html">Acceuille<span class="sr-only">(current)</span></a>
+              </li>
+              </ul>
+              
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="Apropos.html">A propos<span class="sr-only">(current)</span></a>
+                  </li>
+                  </ul>
+                  
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="Services.html">Services<span class="sr-only">(current)</span></a>
+                      </li>
+                      </ul>
+                     
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="Proposer un trajet.html">Proposer un trajet<span class="sr-only">(current)</span></a>
+                          </li>
+                        </ul>
+                            <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                <a class="nav-link" href="Trajet.html">Trajet<span class="sr-only">(current)</span></a>
+                              </li>
+                              </ul>
+                       
+                            <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                <a class="nav-link" href="Contact.html">Contact<span class="sr-only">(current)</span></a>
+                             
+                              </li>
+
+                              </ul>
+                              <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                             <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Connexion
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Connexion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Inscription</a>
+            </li>
+          </ul>
+        </h5>
+        
+
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+
+            <form>
+              <div class="form-group">
+                <label for="formGroupExampleInput"><h5>Adresse-email</h5></label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Taper votre adresse mail">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2"><h5>Mot de passe</h5></label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Taper votre mot de passe">
+              </div>
+            </form>
+            <div class="text-center">
+            <button type="button" class="btn btn-primary mx-auto" style="width: 100%;">Connecter</button>
+            </div>
+          
+                  
+
+
+
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+            <form>
+              <div class="form-group">
+              <select class="form-control">
+                <option>Titre</option>
+                <option>Monsieur</option>
+                <option>Madame</option>
+              </select>
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput"><h5>Nom et Prénom</h5></label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Taper votre Nom et Prénom">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2"><h5>Adress Mail</h5></label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Taper votre Adress Mail">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2"><h5>Mot de passe</h5></label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Taper votre Mot de passe">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2"><h5>Confirmer </h5></label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Confirmer Mot de passe">
+              </div>
+            </form>
+            <div class="text-center">
+            <button type="button" class="btn btn-primary mx-auto" style="width: 100%;">Creé votre compte</button>
+            
+          </div>
+
+
+          </div>
+         
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+                                </li>
+                             </ul>
+                            </div>
+                              </nav>
+
+           <br></br>
+          
+           <div class="container6">
+           
+           <div class="row">
+              <div class=col-md-4>
+    
+  </div>
+  <div class=col-md-2>
+
+<img src="co.jpg" alt="kk" class="rounded-circle" width="200px" height="200px">
+  </div>
+<div class="col-md-6">
+ 
+<div class="parag">
+<ul><li><i class="fas fa-map-marker"></i> Départ de:Tunis,&nbsp&nbsp&nbsp&nbsp 300 barchalone ,Tunis 1200</li>
+<li><i class="fas fa-map-marker"></i>   Destination:Chapters,&nbsp&nbsp&nbsp&nbsp sousse, sousse 4000</li>
+<li><i class="fas fa-ad"></i>   Mode de réservation,&nbsp&nbsp&nbsp Réservation instantanée </li>
+<li><i class="fas fa-head-side-mask"></i>   Masque,&nbsp&nbsp&nbsp Masque OBLIGATOIRE</li>
+
+
+
+</ul>
+  
+<p><i class="far fa-calendar-alt"></i> le 20/12/2020</p>
+</div>
+<button type="button" class="btn btn-danger">Reserver</button>
+           </div>                   
+
+<div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                               <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
